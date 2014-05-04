@@ -1,0 +1,17 @@
+<!HTML>
+<html>
+<!--Original Css-->
+<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+<title>Tricks n Treats</title>
+<head><h1>Tricks 'n Treats</h1></head>
+<body>
+<div id=header>
+<a href="index.html"><img src="Images/Home.png"></a>
+<a href="Characters.html"><img src="Images/Characters.png"></a>
+<a href="Pages.html"><img src="Images/Pages.png"></a> 
+<a href="Promo Art.html"><img src="Images/Promo Art.png"></a>
+</div>
+<div id="Pages"><img src="Images/page4.jpg" width="721"></div>
+<div class="Next"><a href="Page3.html"><-Previous</a>&nbsp;&nbsp;&nbsp;<a href="Pages.html">First</a>&nbsp;&nbsp;&nbsp;<a href="Page5.html">Next-></a></div>
+</body>
+</html>

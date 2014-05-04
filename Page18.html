@@ -1,0 +1,79 @@
+<!HTML>
+<html
+<!--Original Css-->
+<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+<!--Javascript-->
+<script src="Javascript.js"></script>
+<!--Original jQuery-->
+<script src="scripts/jquery-1.10.2.js"></script>
+<!--jQuery UI-->
+<link type="text/css" rel="stylesheet" href="jquery-ui-1.10.3.custom\css\ui-lightness\jquery-ui-1.10.3.custom.min.css"/>
+<script src="jquery-ui-1.10.3.custom\js\jquery-ui-1.10.3.custom.min.js"></script>
+<title>Tricks n Treats</title>
+</head>
+<body>
+<div id="head"><div id="titleImgDiv"><img src="Images/titleImage1.png"></div></div>
+<!--The following scripts cause the hover state to change color for the menu items-->
+<script>
+	$(document).ready(function(){
+	$("#characters2").hover(
+function () {
+    $(this).attr('src','Images/Characters2.png');
+},
+function () {
+    $(this).attr('src','Images/Characters.png');
+});
+});
+</script>
+<script>
+	$(document).ready(function(){
+	$("#home").hover(
+function () {
+    $(this).attr('src','Images/Home2.png');
+},
+function () {
+    $(this).attr('src','Images/Home.png');
+});
+});
+</script>
+<script>
+	$(document).ready(function(){
+	$("#archive").hover(
+function () {
+    $(this).attr('src','Images/Pages2.png');
+},
+function () {
+    $(this).attr('src','Images/Pages.png');
+});
+});
+</script>
+<script>
+	$(document).ready(function(){
+	$("#gallery").hover(
+function () {
+    $(this).attr('src','Images/Promo Art2.png');
+},
+function () {
+    $(this).attr('src','Images/Promo Art.png');
+});
+});
+</script>
+<title>Tricks n Treats</title>
+<body>
+<div id=header>
+<a href="index.html"><img src="Images/Home.png" id="home"></a>
+<a href="Characters.html"><img src="Images/Characters.png" id="characters2"></a>
+<a href="Pages.html"><img src="Images/Pages.png" id="archive"></a> 
+<a href="Promo Art.html"><img src="Images/Promo Art.png" id="gallery"></a>
+</div>
+<div id="Pages">
+    <img src="Images/page18.jpg" width="721">
+    <div id="navigation">
+        <a href="Pages.html"><img src="Images/First.png"></a>
+        <a href="Page17.html"><img src="Images/Previous.png"></a>
+        <a href="Page19.html"><img src="Images/Next.png"></a>
+        <a href="page27.html"><img src="Images/Last.png"></a>
+    </div>
+</div>
+</body>
+</html>

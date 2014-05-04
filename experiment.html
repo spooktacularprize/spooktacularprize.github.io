@@ -1,0 +1,99 @@
+<!HTML>
+<html>
+<!--Original Css-->
+<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+<!--Javascript-->
+<script src="Javascript.js"></script>
+<!--Original jQuery-->
+<script src="scripts/jquery-1.10.2.js"></script>
+<!--jQuery UI-->
+<link type="text/css" rel="stylesheet" href="jquery-ui-1.10.3.custom\css\ui-lightness\jquery-ui-1.10.3.custom.min.css"/>
+<script src="jquery-ui-1.10.3.custom\js\jquery-ui-1.10.3.custom.min.js"></script>
+<title>Tricks n Treats</title>
+<head background="Images/tricksntreatseatenversion.png"><div id="head"><img src="Images/separated.png"></div></head>
+<body>
+<!--The following scripts cause the hover state to change color for the menu items-->
+<script>
+	$(document).ready(function(){
+	$("#characters2").hover(
+function () {
+    $(this).attr('src','Images/Characters2.png');
+},
+function () {
+    $(this).attr('src','Images/Characters.png');
+});
+});
+</script>
+<script>
+	$(document).ready(function(){
+	$("#home").hover(
+function () {
+    $(this).attr('src','Images/Home2.png');
+},
+function () {
+    $(this).attr('src','Images/Home.png');
+});
+});
+</script>
+<script>
+	$(document).ready(function(){
+	$("#archive").hover(
+function () {
+    $(this).attr('src','Images/Pages2.png');
+},
+function () {
+    $(this).attr('src','Images/Pages.png');
+});
+});
+</script>
+<script>
+	$(document).ready(function(){
+	$("#gallery").hover(
+function () {
+    $(this).attr('src','Images/Promo Art2.png');
+},
+function () {
+    $(this).attr('src','Images/Promo Art.png');
+});
+});
+</script>
+<!--Javascript-->
+<script src="Javascript.js"></script>
+<!--Original jQuery-->
+<script src="scripts/jquery-1.10.2.js"></script>
+<!--jQuery UI-->
+<link type="text/css" rel="stylesheet" href="jquery-ui-1.10.3.custom\css\ui-lightness\jquery-ui-1.10.3.custom.min.css"/>
+<script src="jquery-ui-1.10.3.custom\js\jquery-ui-1.10.3.custom.min.js"></script>
+<head background="Images/tricksntreatseatenversion.png"><div id="head"><img src="Images/separated.png"></div></head>
+<div id=header>
+<script>
+  $(document).ready(
+    function(){
+    $("#example2").hide()
+    })
+$(document).ready(
+    function(){
+        $("#example").click(function () {
+            $("#example2").show("slow");
+        });
+
+    })
+    </script>
+	<script>
+	$(document).ready(function(){
+	$("#characters2").hover(
+function () {
+    $(this).attr('src','Images/Characters2.png');
+},
+function () {
+    $(this).attr('src','Images/Characters.png');
+});
+});
+</script>
+<a href="index.html"><img src="Images/Home.png"></a>
+<a href="Characters.html"><img src="Images/Characters.png" id="characters2"></a>
+<a href="Pages.html"><img src="Images/Pages.png"></a> 
+<a href="Promo Art.html"><img src="Images/Promo Art.png"></a>
+</div>
+<div id="example">Hello</div>
+<div id="example2">Hello 2</div>
